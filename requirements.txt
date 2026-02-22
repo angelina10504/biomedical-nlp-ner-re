@@ -1,0 +1,14 @@
+transformers
+datasets
+torch
+torchvision
+seqeval
+scikit-learn
+pandas
+numpy
+streamlit
+networkx
+pyvis
+wandb
+jupyter
+ipykernel
