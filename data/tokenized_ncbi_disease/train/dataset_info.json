@@ -1,0 +1,82 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "parquet",
+  "dataset_size": 3215283,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ncbi_disease@refs/convert/parquet/ncbi_disease/train/0000.parquet": {
+      "num_bytes": 425419,
+      "checksum": null
+    },
+    "hf://datasets/ncbi_disease@refs/convert/parquet/ncbi_disease/validation/0000.parquet": {
+      "num_bytes": 74745,
+      "checksum": null
+    },
+    "hf://datasets/ncbi_disease@refs/convert/parquet/ncbi_disease/test/0000.parquet": {
+      "num_bytes": 77005,
+      "checksum": null
+    }
+  },
+  "download_size": 577169,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3792452,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2372513,
+      "num_examples": 5433,
+      "dataset_name": "parquet"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 416881,
+      "num_examples": 924,
+      "dataset_name": "parquet"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 425889,
+      "num_examples": 941,
+      "dataset_name": "parquet"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
