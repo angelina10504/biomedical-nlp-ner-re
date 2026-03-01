@@ -6,4 +6,4 @@ models/
 *.pt
 *.bin
 .env
-wandb/
+wandb/data/
